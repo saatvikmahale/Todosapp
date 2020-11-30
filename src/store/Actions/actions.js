@@ -1,0 +1,7 @@
+export const CREATE_TASK="CREATE_TASK";
+export const DELETE_TASK="DELETE_TASK";
+export const GET_ALL_TASKS="GET_ALL_TASKS";
+export const GET_ACTIVE_TASKS="GE_ACTIVE_TASKS";
+export const GET_COMPELTED_TASKS="GET_COMPLETED_TASKS";
+export const SET_TASKS="SET_TASKS";
+export const UPDATE_TASKS="UPDATE_TASK";

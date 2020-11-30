@@ -1,0 +1,93 @@
+.DisplayTaskContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.DisplayTasks{
+    border: 1px solid rgb(204, 204, 204);
+    margin: 16px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    border-radius: 16px;
+    background-color: rgb(226, 226, 226);
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.DisplayLinks{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 1.1em;
+    flex-wrap: wrap;
+}
+.Item1{
+    width: 20%;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 30px;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.LinkItems{
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+.LinkItems>div{
+    margin-left: 30px;
+}
+.DefaultColor{
+    color: blue;
+}
+
+button {
+    margin-left: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    width: auto;
+    min-width: 30px;
+    box-sizing: border-box;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    vertical-align: middle;
+    position: relative;
+    align-items: center;
+    border: 0;
+    cursor: pointer;
+    display: inline-flex;
+    outline: 0;
+    
+}
+
+ button:hover,
+ button:visited{
+     color: blue;
+     background-color:  rgba(0, 0, 0, 0.04);
+ }
