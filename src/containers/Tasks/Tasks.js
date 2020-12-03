@@ -8,7 +8,7 @@ import {connect} from 'react-redux';
 import * as taskHandler from '../../store/Actions/taskHandler'
 //import task from '../../components/ShowTasks/Task/Task';
 
-const Tasks =(props)=>{
+export const Tasks =(props)=>{
 
     const[errState,updateError] = useState('');
     const[taskTypeId,updateTaskType] = useState('');

@@ -7,7 +7,7 @@ import * as actionHandler from '../../store/Actions/taskHandler';
 import {connect} from 'react-redux';
 
 
-const ShowTasks =React.memo((props)=>{
+export const ShowTasks =(props)=>{
 
     const markCompleted = id =>{
         props.updateTask({id:id,completed:true})
@@ -53,7 +53,7 @@ const ShowTasks =React.memo((props)=>{
 
     return TaskList
         
-});
+};
 
 const mapStateToProps =state=>{
     return {
